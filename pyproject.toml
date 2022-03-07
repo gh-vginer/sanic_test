@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hello_world"
+version = "0.1.0"
+description = "sonic hello world"
+authors = ["gh-vginer <vginer@guardhealth.com>"]
+
+[tool.poetry.dependencies]
+python = "3.6.9"
+sanic = "19.12.2"
+uvloop = "0.14.0"
+gunicorn = "20.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
